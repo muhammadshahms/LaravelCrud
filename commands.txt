@@ -1,6 +1,7 @@
 php artisan make:model product -m 
 php artisan cache:clear
 php artisan config:clear
+php artisan migrate
 php artisan key:generate
 php artisan storage:link
 php artisan serve
